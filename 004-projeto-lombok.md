@@ -1,6 +1,6 @@
-# Java menos verboso com Lombok
-
 ![Lombok {w=62}](imagens/004-projeto-lombok/lombok.jpeg)
+
+# Java menos verboso com Lombok
 
 O Lombok é um framework que visa diminuir a verbosidade das classes, evitando a repetição de códigos "clichês", como _getters e setters_, _equals e hashCode_, _toString_, construtores, etc.
 
@@ -8,7 +8,7 @@ O Lombok é um framework que visa diminuir a verbosidade das classes, evitando a
 
 Para se ter uma noção mais exata do efeito que o lombok pode trazer às classes de um projeto, veja a diferença:
 
-####### classe criada da forma tradicional
+##### classe criada da forma tradicional
 
 ```java
 public class FormaPagamento {
@@ -53,7 +53,7 @@ public class FormaPagamento {
 }
 ```
 
-####### classe criada usando o Lombok
+##### classe criada usando o Lombok
 
 ```java
 @Getter
@@ -64,7 +64,7 @@ public class FormaPagamento {
 	private String nome;
 	private TipoFormaPagamentoEnum tipo;
 	private LocalDateTime dataFimVigencia;
-
+}
 ```
 
 ![Oh my god {w=62}](imagens/004-projeto-lombok/oh-my-god.gif)
