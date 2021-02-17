@@ -63,7 +63,7 @@ No cabeçalho temos algumas tags que definem:
 <name>teste</name>
 ``` 
 
-#### Tag <properties>
+#### Tag properties
 
 Possibilita definir, por exemplo, as versões do Java e de dependências incluídas no projeto. 
 ``` xml
@@ -74,7 +74,7 @@ Possibilita definir, por exemplo, as versões do Java e de dependências incluí
 </properties>
 ``` 
 
-#### Tag <dependencies>
+#### Tag dependencies
 
 A tag `dependencies` define quais serão as dependências utilizadas no projeto.
 
@@ -86,7 +86,7 @@ A tag `dependencies` define quais serão as dependências utilizadas no projeto.
     </dependency>
 </dependencies>
 ``` 
-#### Tag <repositories>
+#### Tag repositories
 
 Define uma lista de repositórios que serão acessados pelo Maven para baixar as dependências. 
 
