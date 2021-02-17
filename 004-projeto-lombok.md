@@ -1,5 +1,3 @@
-![Lombok {w=62}](imagens/004-projeto-lombok/lombok.jpeg)
-
 # Java menos verboso com Lombok
 
 O Lombok é um framework que visa diminuir a verbosidade das classes, evitando a repetição de códigos "clichês", como _getters e setters_, _equals e hashCode_, _toString_, construtores, etc.
@@ -12,44 +10,44 @@ Para se ter uma noção mais exata do efeito que o lombok pode trazer às classe
 
 ```java
 public class FormaPagamento {
+    
+    private Integer id;
+    private String nome;
+    private TipoFormaPagamentoEnum tipo;
+    private LocalDateTime dataFimVigencia;
 
-	private Integer id;
-	private String nome;
-	private TipoFormaPagamentoEnum tipo;
-	private LocalDateTime dataFimVigencia;
+    public Integer getId() {
+    	return id;
+    }
 
-	public Integer getId() {
-		return id;
-	}
+    public void setId(Integer id) {
+    	this.id = id;
+    }
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public String getNome() {
+    	return nome;
+    }
 
-	public String getNome() {
-		return nome;
-	}
+    public void setNome(String nome) {
+    	this.nome = nome;
+    }
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
+    public TipoFormaPagamentoEnum getTipo() {
+    	return tipo;
+    }
 
-	public TipoFormaPagamentoEnum getTipo() {
-		return tipo;
-	}
+    public void setTipo(TipoFormaPagamentoEnum tipo) {
+    	this.tipo = tipo;
+    }
 
-	public void setTipo(TipoFormaPagamentoEnum tipo) {
-		this.tipo = tipo;
-	}
+    public LocalDateTime getDataFimVigencia() {
+    	return dataFimVigencia;
+    }
 
-	public LocalDateTime getDataFimVigencia() {
-		return dataFimVigencia;
-	}
-
-	public void setDataFimVigencia(LocalDateTime dataFimVigencia) {
-		this.dataFimVigencia = dataFimVigencia;
-	}
-	
+    public void setDataFimVigencia(LocalDateTime dataFimVigencia) {
+    	this.dataFimVigencia = dataFimVigencia;
+    }
+    
 }
 ```
 
@@ -60,10 +58,11 @@ public class FormaPagamento {
 @Setter
 public class FormaPagamento {
 
-	private Integer id;
-	private String nome;
-	private TipoFormaPagamentoEnum tipo;
-	private LocalDateTime dataFimVigencia;
+    private Integer id;
+    private String nome;
+    private TipoFormaPagamentoEnum tipo;
+    private LocalDateTime dataFimVigencia;
+
 }
 ```
 
