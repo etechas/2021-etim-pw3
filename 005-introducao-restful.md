@@ -115,7 +115,18 @@ O uso adequado dos códigos de retorno HTTP cobrem todos os casos comuns e todos
 
 #### Sucesso
 
-![Anatomia Response {w=62}](imagens/005-introducao-restful/codigos-sucesso.png)
+![Codigos Sucesso {w=62}](imagens/005-introducao-restful/codigos-sucesso.png)
 
+#### Erros do Cliente
+
+![Codigos Erro Cliente {w=62}](imagens/005-introducao-restful/codigos-erro-cliente.png)
+
+#### Erros do Servidor
+
+![Codigos Erro Servidor {w=62}](imagens/005-introducao-restful/codigos-erro-servidor.gif)
+
+> Para construir uma API Rest, não basta apenas conhecer uma linguagem de desenvolvimento, é preciso conhecer muito bem o protocolo HTTP e um conjunto de padrões que elevam o nível da API.
+
+![Relaxe {w=62}](imagens/005-introducao-restful/relaxe.png)
 
 
