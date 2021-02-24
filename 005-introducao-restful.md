@@ -80,20 +80,42 @@ Existe uma certa confusão quanto aos termos REST e RESTful. Entretanto, a difer
 
 ![Funcionamento REST {w=62}](imagens/005-introducao-restful/rest-funcionamento.gif)
 
-#### Como o REST funciona?
+### Como o REST funciona?
 
 Toda a comunicação da interface REST é feita via web, ou seja, através de uma requisição (pedido feito pelo cliente) a uma URI (Uniform Resource Identifier), que referencia um recurso, utilizando um dos quatro métodos HTTP (GET, PUT, POST ou DELETE) que, por sua vez, traz uma resposta.
 
 ![Metodos HTTP {w=62}](imagens/005-introducao-restful/metodos-http.png)
 
 
-#### Anatomia da Request
+### Anatomia da Request
 
 Nos exemplos acima, a requisição é composta de 4 partes:
 
 ![Anatomia Request {w=62}](imagens/005-introducao-restful/anatomia-request.png)
 
-#### Anatomia da Response
+### Anatomia da Response
 
 Após o envio da requisição, o serviço deve interpretar a informação e retornar algo. A resposta é formada por:
+
+![Anatomia Response {w=62}](imagens/005-introducao-restful/anatomia-response.gif)
+
+### Design de API REST
+
+Na hora de projetar uma API, tenhamos em mente o princípio de que ela deve sugerir sua própria utilização, isto é, deve ser auto-explicativa e o mais simples possível, para que os desenvolvedores raramente precisem ler a documentação. 
+
+![API Restaurante {w=62}](imagens/005-introducao-restful/api-restaurante.gif)
+
+> É como se a API fosse um garçom: recebe os pedidos e retorna recursos (ou pratos) sem que os clientes precisem visitar a cozinha para ir pegar o prato lá.
+
+![Design API {w=62}](imagens/005-introducao-restful/design-api-rest.png)
+
+### Códigos de resposta
+
+O uso adequado dos códigos de retorno HTTP cobrem todos os casos comuns e todos os desenvolvedores entendem. É claro que não é necessário usar toda a coleção de códigos.
+
+#### Sucesso
+
+![Anatomia Response {w=62}](imagens/005-introducao-restful/codigos-sucesso.png)
+
+
 
