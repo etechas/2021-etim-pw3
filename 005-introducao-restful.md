@@ -21,10 +21,9 @@ Em um app que utiliza GPS, por exemplo, não programamos linhas de código para 
 
 Outro exemplo é um site que utiliza informações do Facebook/Gmail para cadastrar novos usuários: através das APIs, o site envia uma requisição solicitando as informações necessárias para que esse novo usuário possa criar uma conta, utilizando tudo o que precisa e que já está presente nos servidores do Facebook/Gmail.
 
-![API nota {w=62}](imagens/005-introducao-restful/api-realidade.png)
-
 > Qualquer dispositivo (celular, PC, Carro, Totem, Site, Aplicativo) com conectividade com a Internet pode usar uma API, independentemente do sistema operacional ou da linguagem de programação.
 
+![API nota {w=12}](imagens/005-introducao-restful/api-realidade.png)
 
 ### Porque usar APIs?
 
@@ -79,16 +78,22 @@ REST define um conjunto de regras e boas práticas para o desenvolvimento de API
 
 Existe uma certa confusão quanto aos termos REST e RESTful. Entretanto, a diferença é apenas gramatical: sistemas que utilizam os princípios REST são chamados de RESTful.
 
+![Funcionamento REST {w=62}](imagens/005-introducao-restful/rest-funcionamento.gif)
 
 #### Como o REST funciona?
 
 Toda a comunicação da interface REST é feita via web, ou seja, através de uma requisição (pedido feito pelo cliente) a uma URI (Uniform Resource Identifier), que referencia um recurso, utilizando um dos quatro métodos HTTP (GET, PUT, POST ou DELETE) que, por sua vez, traz uma resposta.
 
-![Funcionamento REST {w=62}](imagens/005-introducao-restful/rest-funcionamento.gif)
+![Metodos HTTP {w=62}](imagens/005-introducao-restful/metodos-http.png)
 
 
+#### Anatomia da Request
 
+Nos exemplos acima, a requisição é composta de 4 partes:
 
+![Anatomia Request {w=62}](imagens/005-introducao-restful/anatomia-request.png)
 
+#### Anatomia da Response
 
+Após o envio da requisição, o serviço deve interpretar a informação e retornar algo. A resposta é formada por:
 
