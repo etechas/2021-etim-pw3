@@ -103,7 +103,7 @@ Após o envio da requisição, o serviço deve interpretar a informação e reto
 
 Na hora de projetar uma API, tenhamos em mente o princípio de que ela deve sugerir sua própria utilização, isto é, deve ser auto-explicativa e o mais simples possível, para que os desenvolvedores raramente precisem ler a documentação. 
 
-![API Restaurante {w=62}](imagens/005-introducao-restful/api-restaurante.gif)
+![API Restaurante {w=62}](imagens/005-introducao-restful/api-exemplo-restaurante.gif)
 
 > É como se a API fosse um garçom: recebe os pedidos e retorna recursos (ou pratos) sem que os clientes precisem visitar a cozinha para ir pegar o prato lá.
 
